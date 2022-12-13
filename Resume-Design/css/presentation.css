@@ -1,0 +1,18 @@
+.info-box .presentation {
+  text-transform: uppercase;
+  width: 95%;
+}
+.info-box .presentation th, .info-box .presentation td {
+  text-align: justify;
+  padding: 10px;
+}
+.info-box .presentation th {
+  border-bottom: none;
+  border-top: none;
+}
+.info-box .presentation tr {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}/*# sourceMappingURL=presentation.css.map */
