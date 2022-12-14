@@ -25,7 +25,7 @@
 </head>
 
 <body>
-  <section class="total-container">
+  <div class="total-container">
     <header class="side-intro-section">
       <h2 class="hidden">자기소개</h2>
       <figure class="id-photo">
@@ -38,4 +38,3 @@
     <main class="main-page">
 
     </main><!-- main-page -->
-  </section>
