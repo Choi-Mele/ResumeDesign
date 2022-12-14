@@ -1,6 +1,8 @@
+  </main><!-- main-page -->
 </div><!-- total-container -->
 <footer>
-<!--   Footer Side -->
+  <!--   Footer Side -->
 </footer>
 </body>
+
 </html>

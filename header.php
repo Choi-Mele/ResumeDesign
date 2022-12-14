@@ -21,21 +21,28 @@
   <!-- Js script src -->
   <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
   <script src="./js/script.js"></script>
-  <title>Document</title>
+  <title>Resume Doc</title>
 </head>
-
 <body>
+  
   <div class="total-container">
+    <!-- side-intro-section -->
     <header class="side-intro-section">
       <h2 class="hidden">자기소개</h2>
+
       <figure class="id-photo">
         <img src="./img/profile/profile.jpg" alt="id-photo">
       </figure>
-      <div class="info-box">
-        <?php include "presentation.php"?>
-      </div>
-    </header><!-- side-intro-section -->
-    <main class="main-page">
 
-    </main><!-- main-page -->
-  </div>
+      <div class="info-box">
+        <?php include "presentation.php" ?>
+      </div>
+
+    </header>
+    <!-- side-intro-section -->
+
+    <main>
+
+    
+    
+

@@ -3,19 +3,12 @@
   .presentation{
     text-transform: uppercase;
     width: 95%;
-    th,td{
+    margin: 0 auto;
+    border: 1px solid black;
+
+    li{
       text-align: justify;
       padding: 10px;
-    }
-    th{
-      border-bottom: none;
-      border-top: none;
-    }
-    tr{
-      box-sizing: border-box;
-      border: 1px solid #fff;
-      border-radius: 5px;
-      color: #fff;
     }
       
     span{
