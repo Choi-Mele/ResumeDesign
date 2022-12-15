@@ -1,10 +1,44 @@
-.info-box .presentation {
-  text-transform: uppercase;
-  width: 95%;
-  margin: 0 auto;
-  border: 1px solid black;
+.info-box {
+  border-radius: 10px;
 }
-.info-box .presentation li {
-  text-align: justify;
+.info-box .presentation {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 95%;
   padding: 10px;
+  border-radius: 10px;
+  border: 4px double rgba(68, 68, 68, 0.5);
+  font-weight: 500;
+}
+.info-box .presentation > li {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+  width: 95%;
+  text-align: justify;
+  border-bottom: 1px dashed #eeeeee;
+}
+.info-box .presentation > li h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+.info-box .presentation > li p {
+  padding: 5px 0;
+  text-align: end;
+}
+.info-box .presentation > li > a {
+  display: block;
+  text-align: end;
+}
+.info-box .presentation > li.about ul li {
+  font-size: 0.8em;
+}
+.info-box .presentation > li.sns > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info-box .presentation > li.sns > ul > li {
+  text-align: center;
+  font-size: 3em;
 }/*# sourceMappingURL=presentation.css.map */

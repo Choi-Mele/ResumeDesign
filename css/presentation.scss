@@ -1,26 +1,59 @@
-.info-box{
+@import "mixin";
 
-  .presentation{
-    text-transform: uppercase;
-    width: 95%;
+.info-box {
+  border-radius: 10px;
+
+  .presentation {
+    box-sizing: border-box;
     margin: 0 auto;
-    border: 1px solid black;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px double rgba(#444, 0.5);
+    font-weight: 500;
 
-    li{
+    >li {
+      position: relative;
+      margin: 0 auto;
+      padding: 5px;
+      width: 95%;
       text-align: justify;
-      padding: 10px;
-    }
-      
-    span{
+      border-bottom: 1px dashed rgba(#eee, 1);
 
-    }
+      h4 {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        padding: 5px 0;
 
-    .name{
+      }
 
-      
-    }
+      p {
+        padding: 5px 0;
+        text-align: end;
+      }
 
+      > a {
+        display: block;
+        text-align: end;
+      }
 
-  }
-
+      &.about {
+        ul {
+          li {
+            font-size: 0.8em;
+          }
+        }
+      }
+      &.sns {
+        >ul {
+          display: flex;
+          justify-content: space-evenly;
+          >li {
+            text-align: center;
+            font-size: 3em;
+          }
+        }
+      }
+    } //li 1dep
+  } //ul presentation Box
 }

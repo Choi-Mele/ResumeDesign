@@ -15,6 +15,7 @@
   <!-- CSS rel -->
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mixin.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/presentation.css">

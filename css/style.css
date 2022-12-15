@@ -23,8 +23,8 @@ body{
 }
 
 :root{ /* html에 자주쓰는것들을 등록할때 쓰는 변수 */
-  --line-color:#dbc191;
-  --sub-color:#f69124;
-  --dark-color:#212228;
-  --blue-color:rgb(148, 212, 255);
+  --main:#dbc191;
+  --sub:#f69124;
+  --dark:#444;
+  --blue:rgb(148, 212, 255);
 }
